@@ -1,35 +1,35 @@
 resource "google_project_service" "artifacts" {
-  service = "artifactregistry.googleapis.com"
+  service                    = "artifactregistry.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "sourcerepo" {
-  service = "sourcerepo.googleapis.com"
+  service                    = "sourcerepo.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "cloudapis" {
-  service = "cloudapis.googleapis.com"
+  service                    = "cloudapis.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "servicemanagement" {
-  service = "servicemanagement.googleapis.com"
+  service                    = "servicemanagement.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "storage-api" {
-  service = "storage-api.googleapis.com"
+  service                    = "storage-api.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "cloudbuild" {
-  service = "cloudbuild.googleapis.com"
+  service                    = "cloudbuild.googleapis.com"
   disable_dependent_services = true
 }
 
 resource "google_project_service" "secretmanager" {
-  service = "secretmanager.googleapis.com"
+  service                    = "secretmanager.googleapis.com"
   disable_dependent_services = true
 }
 

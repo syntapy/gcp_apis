@@ -3,7 +3,7 @@ variable "project_id" {
 }
 
 variable "region" {
-  type = string
+  type    = string
   default = "us-west1"
 }
 
@@ -17,5 +17,5 @@ terraform {
 
 provider "google" {
   project = var.project_id
-  region = var.region
+  region  = var.region
 }
