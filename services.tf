@@ -40,3 +40,7 @@ resource "google_project_service" "compute" {
 output "sourcerepo_service" {
   value = google_project_service.sourcerepo
 }
+
+output "cloudbuild_service" {
+  value = google_project_service.cloudbuild
+}
